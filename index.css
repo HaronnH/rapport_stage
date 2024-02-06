@@ -1,0 +1,43 @@
+h1{
+    color: red;
+}
+.grp-vert{
+    color: green;
+}
+
+.grille{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.page-garde{
+    text-align: center;
+    text-align: center;
+}
+
+#metier-1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* background-image: url("logo_ecole.png"); */
+}
+
+#metier-2{
+    background-image: url(téléchargement.jpg);
+    color: rgb(250, 250, 250);
+    font-size: 14pt;
+
+}
+
+#metier-3{
+    background-color: burlywood;
+    border: 3px solid blue
+
+}
+   
+
+#body-2{
+    background-color: rgb(192, 190, 190)
+}
